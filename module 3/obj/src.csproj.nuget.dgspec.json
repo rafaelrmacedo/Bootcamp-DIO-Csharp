@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src\\src.csproj": {}
+    "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src\\src.csproj": {
+    "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src\\src.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src.csproj",
         "projectName": "src",
-        "projectPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src\\src.csproj",
+        "projectPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src\\obj\\",
+        "outputPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
