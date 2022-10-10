@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace module_3.Commom.models
+namespace module3.Commom.models
 {
     public class Person
     {
