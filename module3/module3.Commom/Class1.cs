@@ -1,4 +1,4 @@
-﻿namespace module_3.Commom;
+﻿namespace module3.Commom;
 public class Class1
 {
 

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src.csproj",
-      "projectName": "src",
-      "projectPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\src.csproj",
+      "projectUniqueName": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module3\\module3\\module3.csproj",
+      "projectName": "module3",
+      "projectPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module3\\module3\\module3.csproj",
       "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module 3\\obj\\",
+      "outputPath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module3\\module3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
