@@ -1,0 +1,12 @@
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\bin\Debug\net6.0\module3.Commom.deps.json
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\bin\Debug\net6.0\module3.Commom.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\bin\Debug\net6.0\module3.Commom.pdb
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.csproj.AssemblyReference.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.AssemblyInfoInputs.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.AssemblyInfo.cs
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.csproj.CoreCompileInputs.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\refint\module3.Commom.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\module3.Commom.pdb
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3.Commom\obj\Debug\net6.0\ref\module3.Commom.dll

@@ -1,22 +1,22 @@
-﻿List<string> stringList = new List<string>();
+﻿// List<string> stringList = new List<string>();
 
-stringList.Add("RS");
-stringList.Add("SC");
-stringList.Add("PR");
+// stringList.Add("RS");
+// stringList.Add("SC");
+// stringList.Add("PR");
 
-Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
+// Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
 
-stringList.Add("RJ");
+// stringList.Add("RJ");
 
-Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
+// Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
 
-stringList.Add("MG");
+// stringList.Add("MG");
 
-Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
+// Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
 
-stringList.Remove("MG");
+// stringList.Remove("MG");
 
-Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
+// Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stringList.Capacity}");
 
 
 // for(int i = 0; i < stringList.Count; i++) //Count === Length
@@ -129,7 +129,7 @@ Console.WriteLine($"Itens on the list: {stringList.Count} - List Capacity: {stri
 // //         case "1": 
 // //             Console.WriteLine("Customer Register");
 // //             break;
-        
+
 // //         case "2": 
 // //             Console.WriteLine("Search Customer");
 // //             break;
