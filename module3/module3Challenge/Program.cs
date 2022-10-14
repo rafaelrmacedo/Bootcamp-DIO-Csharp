@@ -17,7 +17,7 @@ Parking parking = new Parking(inicialPrice, pricePerHour);
 string option = string.Empty;
 bool showMenu = true;
 
-// Realiza o loop do menu
+// Menu loop
 while (showMenu)
 {
     Console.Clear();

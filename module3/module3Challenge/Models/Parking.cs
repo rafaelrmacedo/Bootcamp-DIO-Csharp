@@ -15,8 +15,7 @@ namespace module3Challenge.Models
 
         public void AddVehicle()
         {
-            // TODO: Pedir para o usuário digitar uma licencePlate (ReadLine) e adicionar na lista "vehicle"
-            // *IMPLEMENTE AQUI*
+    
             Console.WriteLine("Type the licence plate to park the vehicle:");
             licencePlate = Console.ReadLine();
 
