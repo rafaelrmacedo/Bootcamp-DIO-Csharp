@@ -1,0 +1,15 @@
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\bin\Debug\net6.0\module3-ExploringExamples.exe
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\bin\Debug\net6.0\module3-ExploringExamples.deps.json
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\bin\Debug\net6.0\module3-ExploringExamples.runtimeconfig.json
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\bin\Debug\net6.0\module3-ExploringExamples.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\bin\Debug\net6.0\module3-ExploringExamples.pdb
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.csproj.AssemblyReference.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.AssemblyInfoInputs.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.AssemblyInfo.cs
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.csproj.CoreCompileInputs.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\refint\module3-ExploringExamples.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.pdb
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.genruntimeconfig.cache
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\ref\module3-ExploringExamples.dll
