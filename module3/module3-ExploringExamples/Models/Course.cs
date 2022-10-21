@@ -29,9 +29,14 @@ namespace module3_ExploringExamples.Models
 
         public void ListStudents()
         {
-            foreach (Person student in Students)
+
+            Console.WriteLine($"{Name} course students:");
+
+            for (int count = 0; count < Students.Count; count++)
             {
-                Console.WriteLine(student.CompleteName);
+                // concatenação -> string text = "Student number " + count + " - " + Students[count].CompleteName;
+                string text = $"Student number {count + 1} - {Students[count].CompleteName}"; // <- interpolação
+                Console.WriteLine(text);
             }
         }
     }
