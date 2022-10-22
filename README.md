@@ -17,6 +17,7 @@ A Bootcamp in Digital Innovation One plataform about C# <br>
 <p>Module 4 -> In the module 4, the Bootcamp will show the oriented objects programming. Here, will be show the basics: objects, functions and methods, heritage, polimorphysm, abstract classes, interfaces, etc. </p>
 <p>Module 5 -> Penultimate module we have the SQL Server section. Learning about procedures, functions, data types, tables, and data manipulation.</p>
 <p>Module 6 -> Last Bootcamp module is where I'll learn about API, ASP.NET and the Framework Entity.</p>
+<hr>
 
 <a id='ingles' href='#portugues'><sup>EN</sup><a>
 
