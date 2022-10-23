@@ -1,0 +1,2 @@
+olá, tudo bem?
+teste para a aula de exceções e coleções :D 
