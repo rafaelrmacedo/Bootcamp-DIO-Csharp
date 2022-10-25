@@ -1,21 +1,294 @@
 ﻿using module3_ExploringExamples.Models;
 using System.Globalization;
 
-Queue<int> queue = new Queue<int>();
+var number = 15;
+bool isEven = false;
 
-queue.Enqueue(1);
-queue.Enqueue(2);
-queue.Enqueue(3);
-queue.Enqueue(4);
-queue.Enqueue(5);
-queue.Enqueue(6);
+// if ternary
 
-foreach (int value in queue)
-{
-    Console.WriteLine(value);
-}
+isEven = number % 2 == 0;
 
-queue.Dequeue();
+Console.WriteLine($"Number {number} is " + (isEven ? "even" : "odd"));
+
+// if(number % 2 == 0)
+// {
+//     Console.WriteLine("Even number");
+// }
+// else
+// {
+//     Console.WriteLine("Odd number");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Person person = new Person("Rafael", "Macedo");
+
+// (string name, string lastName) = person;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ReadingFile readingFile = new ReadingFile();
+
+// //The _ say to the code for discard the information that tuple returns
+// var (success, Lines, _) = readingFile.ReadFile("Archives/text.txt");
+
+// if(success)
+// {
+//     //Console.WriteLine("Archive lines quantity: " + linesQuatity);
+//     foreach(string line in Lines)
+//     {
+//         Console.WriteLine(line);
+//     }
+// }
+// else 
+// {
+//     Console.WriteLine("Can't read file.");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// //Tuple practice
+
+// (int id, string name, string lastName) Tuple = (1, "Rafael", "Macedo"); //Best way to declare a tuple
+
+// //Another Tuple sintax
+
+// ValueTuple<int, string, string> Tuple2 = (1, "Rafael", "Macedo");
+
+// Console.WriteLine($"First tuple informations: {Tuple.id}, {Tuple.name}, {Tuple.lastName}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Dictionary<string, string> dictionary = new Dictionary<string, string>();
+
+// dictionary.Add("RS", "Rio Grande do Sul");
+// dictionary.Add("SC", "Santa Catarina");
+// dictionary.Add("PR", "Paraná");
+
+// foreach(var item in dictionary)
+// {
+//     Console.WriteLine($"Key: {item.Key}, item: {item.Value}");
+// }
+
+// dictionary.Remove("PR");
+// dictionary.Add("SP", "São Paulo");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Stack<int> stack = new Stack<int>();
+
+// Console.WriteLine("Stacked elements: ");
+// stack.Push(2);
+// stack.Push(4);
+// stack.Push(6);
+// stack.Push(8);
+// stack.Push(10);
+
+// foreach(int item in stack)
+// {
+//     Console.WriteLine(item);
+// }
+
+// Console.WriteLine($"{stack.Pop()} was removed from the stack.");
+
+// Console.WriteLine("New stack: ");
+
+// foreach(int item in stack)
+// {
+//     Console.WriteLine(item);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Queue<int> queue = new Queue<int>();
+
+// queue.Enqueue(1);
+// queue.Enqueue(2);
+// queue.Enqueue(3);
+// queue.Enqueue(4);
+// queue.Enqueue(5);
+// queue.Enqueue(6);
+
+// foreach (int item in queue)
+// {
+//     Console.WriteLine(item);
+// }
+
+// queue.Dequeue();
 
 
 
@@ -60,7 +333,7 @@ queue.Dequeue();
 // {
 //     Console.WriteLine($"A generic exception occurred. {exception.Message}");
 // }
-// //FInally will occurred always. Regardless of whether there is an exception or not.
+// //Finally will occurred always. Regardless of whether there is an exception or not.
 // finally
 // {
 
@@ -100,22 +373,22 @@ queue.Dequeue();
 
 
 // //Here, without decare any culture, the writeline will print the money in my current system config
-// decimal monetaryValue2 = 22382.40M;
+// decimal monetaryitem2 = 22382.40M;
 
-// Console.WriteLine($"{monetaryValue2:C}");
+// Console.WriteLine($"{monetaryitem2:C}");
 // //C = currency, country currency coin
 
 // //This constructor is used for "change" the machine localization
 // //Here, the writeline will print in Reais
 // CultureInfo.DefaultThreadCurrentCulture = new CultureInfo("pt-BR");
-// decimal monetaryValue = 22382.40M;
+// decimal monetaryitem = 22382.40M;
 
-// Console.WriteLine($"{monetaryValue:C}");
+// Console.WriteLine($"{monetaryitem:C}");
 // //C = currency, country currency coin
 
 // //We can choose an especific culture to print the money on just 1 line
 // //ja-JA is Japonese
-// Console.WriteLine(monetaryValue2.ToString("C", CultureInfo.CreateSpecificCulture("ja-JA")));
+// Console.WriteLine(monetaryitem2.ToString("C", CultureInfo.CreateSpecificCulture("ja-JA")));
 
 // DateTime dateTime = DateTime.Now;
 

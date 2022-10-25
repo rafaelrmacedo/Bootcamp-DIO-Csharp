@@ -16,6 +16,13 @@ namespace module3_ExploringExamples.Models
         {
 
         }
+
+        public void Deconstruct(out string name, out string lastName)
+        {
+            name = Name;
+            lastName = LastName;
+        }
+
         private string _nome; //this fields that will store the name and age. Only the classe can modify
         private int _age;
         public string Name 
