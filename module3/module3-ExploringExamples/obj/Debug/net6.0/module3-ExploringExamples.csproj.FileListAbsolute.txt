@@ -13,3 +13,5 @@ C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\
 C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.pdb
 C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.genruntimeconfig.cache
 C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\ref\module3-ExploringExamples.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\rafae\github\Bootcamp-DIO-CSharp\module3\module3-ExploringExamples\obj\Debug\net6.0\module3-ExploringExamples.csproj.CopyComplete

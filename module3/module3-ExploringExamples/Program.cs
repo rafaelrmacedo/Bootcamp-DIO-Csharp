@@ -1,23 +1,114 @@
 ﻿using module3_ExploringExamples.Models;
-using System.Globalization;
+using Newtonsoft.Json;
 
-var number = 15;
-bool isEven = false;
+string content = File.ReadAllText("Archives/sells.json");
 
-// if ternary
+List<Sell> sellList = JsonConvert.DeserializeObject<List<Sell>>(content);
 
-isEven = number % 2 == 0;
+foreach(Sell sell in sellList)
+{
+    Console.WriteLine($"Id: {sell.Id}, Product: {sell.Product}, Price: {sell.Price}, SellDate: {sell.SellDate}");
+}
 
-Console.WriteLine($"Number {number} is " + (isEven ? "even" : "odd"));
 
-// if(number % 2 == 0)
-// {
-//     Console.WriteLine("Even number");
-// }
-// else
-// {
-//     Console.WriteLine("Odd number");
-// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Serialization to JSON
+
+// DateTime CurrentDate = DateTime.Now;
+
+// List<Sell> sellsList = new List<Sell>();
+
+// Sell sell1 = new Sell(1, "Ferrari Italy", 2500000.00M, CurrentDate);
+// Sell sell2 = new Sell(2, "Software Licence", 100.00M, CurrentDate);
+
+// sellsList.Add(sell1);
+// sellsList.Add(sell2);
+
+// string Serialization = JsonConvert.SerializeObject(sellsList, Formatting.Indented);
+
+// File.WriteAllText("Archives/sells.json", Serialization);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var number = 15;
+// bool isEven = false;
+
+// // if ternary
+
+// isEven = number % 2 == 0;
+
+// Console.WriteLine($"Number {number} is " + (isEven ? "even" : "odd"));
+
+// // if(number % 2 == 0)
+// // {
+// //     Console.WriteLine("Even number");
+// // }
+// // else
+// // {
+// //     Console.WriteLine("Odd number");
+// // }
 
 
 

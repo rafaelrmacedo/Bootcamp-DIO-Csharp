@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "rjLosY5WnFGcr36zE6sq9ZY1w3BPOXfbiZFEU5FuXMO1C1yLQC1Gi00zOVOrPs8yld2vyCn8Qlvcf1VJUfAziw==",
+  "dgSpecHash": "U09gwsln3GsHOEyPjFDikSdSvsRrjwrj2kx0AlZUd3F/5XrJeHpAkkvY9jhz9/s6zenuJeW5aeLCQcJvzQl47Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\rafae\\github\\Bootcamp-DIO-CSharp\\module3\\module3-ExploringExamples\\module3-ExploringExamples.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\rafae\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
