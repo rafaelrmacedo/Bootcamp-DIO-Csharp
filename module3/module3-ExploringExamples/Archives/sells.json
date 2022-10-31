@@ -3,12 +3,14 @@
     "Id": 1,
     "Product_Name": "Ferrari Italy",
     "Price": 2500000.00,
-    "SellDate": "2022-10-28T22:29:15.0039943-03:00"
+    "SellDate": "2022-10-28T22:29:15.0039943-03:00",
+    "Discount": null
   },
   {
     "Id": 2,
     "Product_Name": "Software Licence",
     "Price": 100.00,
-    "SellDate": "2022-10-28T22:29:15.0039943-03:00"
+    "SellDate": "2022-10-28T22:29:15.0039943-03:00",
+    "Discount": 10
   }
 ]

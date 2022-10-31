@@ -23,8 +23,11 @@ namespace module3_ExploringExamples.Models
             lastName = LastName;
         }
 
-        private string _nome; //this fields that will store the name and age. Only the classe can modify
+        private string _nome; 
+        private string _lastName;
         private int _age;
+        //this 3 private fields that will store the name, last name and age. Only the classe can modify
+
         public string Name 
         { 
             
@@ -42,7 +45,20 @@ namespace module3_ExploringExamples.Models
             }  
         }
 
-        public string LastName { get; set; }
+        public string LastName 
+        {
+            get => _lastName.ToUpper();
+
+            set
+            {
+                if(value == ""){
+                    throw new ArgumentException("The name can't be null.");
+                }
+
+                _lastName = value;
+                //after set the last name, the _lastName property will store the value
+            }
+        }
 
         public string CompleteName => $"{Name} {LastName}";
         //without get and set explicitly written, the property still have only the get method

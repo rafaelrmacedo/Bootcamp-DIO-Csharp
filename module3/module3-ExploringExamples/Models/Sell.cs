@@ -17,5 +17,8 @@ namespace module3_ExploringExamples.Models
         public decimal Price { get; set; }
 
         public DateTime SellDate { get; set; }
+
+        public decimal? Discount { get; set; }
+
     }
 }

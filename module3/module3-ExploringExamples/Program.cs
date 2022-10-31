@@ -1,14 +1,250 @@
 ﻿using module3_ExploringExamples.Models;
 using Newtonsoft.Json;
 
-string content = File.ReadAllText("Archives/sells.json");
+int a = 5;
+int b = a;
+b = 10;
 
-List<Sell> sellList = JsonConvert.DeserializeObject<List<Sell>>(content);
+Console.WriteLine($"Value A: {a}");
+Console.WriteLine($"Value B: {b}");
 
-foreach(Sell sell in sellList)
-{
-    Console.WriteLine($"Id: {sell.Id}, Product: {sell.Product}, Price: {sell.Price}, SellDate: {sell.SellDate}");
-}
+Person person1 = new Person("Rafael", "Macedo");
+Person person2 = person1;
+person2.Name = "João";
+
+Console.WriteLine($"Complete person1 name: {person1.CompleteName}");
+Console.WriteLine($"Complete person2 name: {person2.CompleteName}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Extensions methods
+
+// var number = 15;
+// bool isEven = false;
+
+// // if ternary
+
+// isEven = number.IsEven();
+
+// Console.WriteLine($"Number {number} is " + (isEven ? "even" : "odd"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Generic classes
+
+// MyArray<string> stringArray = new MyArray<string>();
+
+// stringArray.AddElement("Sim");
+
+// MyArray<int> intArray = new MyArray<int>();
+
+// intArray.AddElement(10);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//dynamic variable
+
+// dynamic dynamicVariable = 4;
+
+// Console.WriteLine($"Variable type: {dynamicVariable.GetType()}, value: {dynamicVariable}");
+
+// dynamicVariable = "Text";
+
+// Console.WriteLine($"Variable type: {dynamicVariable.GetType()}, value: {dynamicVariable}");
+
+// dynamicVariable = false;
+
+// Console.WriteLine($"Variable type: {dynamicVariable.GetType()}, value: {dynamicVariable}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// string content = File.ReadAllText("Archives/sells.json");
+
+// List<Sell> sellList = JsonConvert.DeserializeObject<List<Sell>>(content);
+
+// var anonimousList = sellList.Select(x => new { x.Product, x.Price, x.Discount });
+
+// foreach(var sell in anonimousList)
+// {
+//     Console.WriteLine(sell);
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// bool? wantReceiveEmail = true;
+
+// if(wantReceiveEmail.HasValue && wantReceiveEmail.Value)
+// {
+//     Console.WriteLine("Customer wants to receive e-mails.");
+// }
+// else
+// {
+//     Console.WriteLine("Customer doesn't respond or he doesn't want receive e-mails.");
+// }
+
+// string content = File.ReadAllText("Archives/sells.json");
+
+// List<Sell> sellList = JsonConvert.DeserializeObject<List<Sell>>(content);
+
+// foreach(Sell sell in sellList)
+// {
+//     Console.WriteLine($"Id: {sell.Id}, Product: {sell.Product}, Price: {sell.Price}, SellDate: {sell.SellDate} {(sell.Discount.HasValue ? $",Discount: {sell.Discount}" : "")}");
+// }
 
 
 
@@ -91,13 +327,12 @@ foreach(Sell sell in sellList)
 
 
 
-
 // var number = 15;
 // bool isEven = false;
 
 // // if ternary
 
-// isEven = number % 2 == 0;
+// isEven = number.IsEven();
 
 // Console.WriteLine($"Number {number} is " + (isEven ? "even" : "odd"));
 
