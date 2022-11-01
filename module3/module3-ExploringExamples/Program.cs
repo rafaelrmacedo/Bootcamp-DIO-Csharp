@@ -1,19 +1,56 @@
 ﻿using module3_ExploringExamples.Models;
 using Newtonsoft.Json;
 
-int a = 5;
-int b = a;
-b = 10;
 
-Console.WriteLine($"Value A: {a}");
-Console.WriteLine($"Value B: {b}");
 
-Person person1 = new Person("Rafael", "Macedo");
-Person person2 = person1;
-person2.Name = "João";
 
-Console.WriteLine($"Complete person1 name: {person1.CompleteName}");
-Console.WriteLine($"Complete person2 name: {person2.CompleteName}");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// int a = 5;
+// int b = a;
+// b = 10;
+
+// Console.WriteLine($"Value A: {a}");
+// Console.WriteLine($"Value B: {b}");
+
+// Person person1 = new Person("Rafael", "Macedo");
+// Person person2 = person1;
+// person2.Name = "João";
+
+// Console.WriteLine($"Complete person1 name: {person1.CompleteName}");
+// Console.WriteLine($"Complete person2 name: {person2.CompleteName}");
 
 
 
