@@ -1,19 +1,23 @@
 ﻿using System.Text;
-using DesafioProjetoHospedagem.Models;
+using HotelChallengeProject.Models;
 
 Console.OutputEncoding = Encoding.UTF8;
 
 // Cria os modelos de hóspedes e cadastra na lista de hóspedes
 List<Person> guests = new List<Person>();
 
-Person person1 = new Person(name: "Guest 1");
-Person person2 = new Person(name: "Guest 2");
+Person person1 = new Person(name: "Andreivi");
+Person person2 = new Person(name: "Cheila");
+Person person3 = new Person(name: "Rafael");
+Person person4 = new Person(name: "Alice");
 
 guests.Add(person1);
 guests.Add(person2);
+guests.Add(person3);
+guests.Add(person4);
 
 // Cria a suíte
-Suite suite = new Suite(suiteType: "Premium", capacity: 2, dailyValue: 30);
+Suite suite = new Suite(suiteType: "VIP", capacity: 4, dailyValue: 40);
 
 // Cria uma nova reserva, passando a suíte e os hóspedes
 Reservation reservation = new Reservation(reservedDays: 5);

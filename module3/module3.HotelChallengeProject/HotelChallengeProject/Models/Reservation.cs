@@ -1,9 +1,14 @@
-namespace DesafioProjetoHospedagem.Models
+namespace HotelChallengeProject.Models
 {
     public class Reservation
     {
         public List<Person> Guests { get; set; }
-        public Suite Suite { get; set; }
+        public Reservation(Suite suite) 
+        {
+            this.Suite = suite;
+   
+        }
+                public Suite Suite { get; set; }
         public int ReservedDays { get; set; }
 
         public Reservation() { }
@@ -15,16 +20,13 @@ namespace DesafioProjetoHospedagem.Models
 
         public void GuestsRegister(List<Person> guests)
         {
-            // TODO: Verificar se a capacidade é maior ou igual ao número de hóspedes sendo recebido
-            // *IMPLEMENTE AQUI*
-            if (true)
+            if (guests.Count() <= Suite.Capacity)
             {
-                Guests = guests;
+                Guests = guest;
             }
-            else
+            else if(guests.Count() > Suite.Capacity)
             {
-                // TODO: Retornar uma exception caso a capacidade seja menor que o número de hóspedes recebido
-                // *IMPLEMENTE AQUI*
+                throw new ArgumentException("The numbers of guest can't be more than the suite capacity.");
             }
         }
 
@@ -35,26 +37,25 @@ namespace DesafioProjetoHospedagem.Models
 
         public int GetGuestsNumber()
         {
-            // TODO: Retorna a quantidade de hóspedes (propriedade guests)
-            // *IMPLEMENTE AQUI*
-            return 0;
+            Guests = guests;
+            return Guests;
         }
 
         public decimal DailyValueCalculate()
         {
-            // TODO: Retorna o value da diária
-            // Cálculo: DiasReservados X Suite valueDiaria
-            // *IMPLEMENTE AQUI*
             decimal value = 0;
 
-            // Regra: Caso os dias reservados forem maior ou igual a 10, conceder um desconto de 10%
-            // *IMPLEMENTE AQUI*
-            if (true)
+            if (ReservedDays >= 10)
             {
-             value = 0;
+                value = Suite.DailyValue - Suite.DailyValue - Suite.DailyValue * (10/100) * ReservedDays;
+            }
+            else
+            {
+                value = Suite.DailyValue * ReservedDays;
             }
 
             return value;
+
         }
     }
 }
