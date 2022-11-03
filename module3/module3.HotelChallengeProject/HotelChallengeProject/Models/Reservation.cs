@@ -22,7 +22,7 @@ namespace HotelChallengeProject.Models
         {
             if (guests.Count() <= Suite.Capacity)
             {
-                Guests = guest;
+                Guests = guests;
             }
             else if(guests.Count() > Suite.Capacity)
             {
@@ -37,8 +37,7 @@ namespace HotelChallengeProject.Models
 
         public int GetGuestsNumber()
         {
-            Guests = guests;
-            return Guests;
+            return Guests.Count();
         }
 
         public decimal DailyValueCalculate()
@@ -47,7 +46,7 @@ namespace HotelChallengeProject.Models
 
             if (ReservedDays >= 10)
             {
-                value = Suite.DailyValue - Suite.DailyValue - Suite.DailyValue * (10/100) * ReservedDays;
+                value = Suite.DailyValue * ReservedDays - (Suite.DailyValue * 0.1M * ReservedDays);
             }
             else
             {

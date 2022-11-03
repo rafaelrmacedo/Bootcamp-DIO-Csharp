@@ -10,17 +10,19 @@ Person person1 = new Person(name: "Andreivi");
 Person person2 = new Person(name: "Cheila");
 Person person3 = new Person(name: "Rafael");
 Person person4 = new Person(name: "Alice");
+Person person5 = new Person(name: "Fred");
 
 guests.Add(person1);
 guests.Add(person2);
 guests.Add(person3);
 guests.Add(person4);
+guests.Add(person5);
 
 // Cria a suíte
 Suite suite = new Suite(suiteType: "VIP", capacity: 4, dailyValue: 40);
 
 // Cria uma nova reserva, passando a suíte e os hóspedes
-Reservation reservation = new Reservation(reservedDays: 5);
+Reservation reservation = new Reservation(reservedDays: 10);
 reservation.SuiteRegister(suite);
 reservation.GuestsRegister(guests);
 
