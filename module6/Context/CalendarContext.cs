@@ -10,7 +10,7 @@ namespace module6.Context
     //Herança com a classe DbContext
     public class CalendarContext : DbContext
     {
-        //Constructor for DataBase
+        //Construtor pro Banco de dados
         public CalendarContext(DbContextOptions<CalendarContext> options) : base(options) {}
 
         public DbSet<Contact> Contacts { get; set; }

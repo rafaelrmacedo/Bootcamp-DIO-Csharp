@@ -29,8 +29,7 @@ namespace module6.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.DropTable(
-                name: "Contacts");
+            migrationBuilder.DropTable(name: "Contacts");
         }
     }
 }

@@ -11,7 +11,7 @@ using module6.Context;
 namespace module6.Migrations
 {
     [DbContext(typeof(CalendarContext))]
-    [Migration("20221110214433_CreateTableContact")]
+    [Migration("20221113175135_CreateTableContact")]
     partial class CreateTableContact
     {
         /// <inheritdoc />
